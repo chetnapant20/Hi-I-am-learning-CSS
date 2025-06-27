@@ -1,0 +1,80 @@
+*{
+  background-color: #f1f5f9;
+  margin: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: small;
+}
+
+.pink{
+  border: 2px solid pink;
+  text-align: center;
+  width: 15vw;
+  margin-left: calc(40vw - 15vw) ;
+  margin-top: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  line-height:30px;
+  background-color: white;
+}
+.pink span{
+  width: 40px;
+  height: 40px;
+  background-color:#ff69a6;
+  display: inline-block;
+  border-radius: 50%;
+
+}
+.pink button{
+  color: #ff69a6;
+  border:1px solid rgba(0,0,0,0);
+  padding: 2px 5px;
+  border-radius: 5px;
+  background-color: rgb(250, 225, 229);
+}
+
+.pink p{
+  line-height: 20px;
+  color: rgb(134, 121, 121);
+  background-color: white;
+}
+.pink h3{
+  background-color: white;
+}
+.blue{
+  border: 2px solid #68a3ff;
+  text-align: center;
+  width: 15vw;
+  margin-left: calc(40vw - 15vw) ;
+  margin-top: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  line-height:30px;
+  background-color:white;
+}
+.blue span{
+  width: 40px;
+  height: 40px;
+  background-color:#68a3ff;
+  display: inline-block;
+  border-radius: 50%;
+
+}
+.blue button{
+  color: #68a3ff;
+  border:1px solid rgba(0,0,0,0);
+  padding: 2px 5px;
+  border-radius: 5px;
+  background-color: #ecf4ff;
+}
+
+.blue p{
+  line-height: 20px;
+  color: rgb(134, 121, 121);
+  background-color: white;
+}
+.blue h3{
+  background-color: white;
+}
+button{
+  text-transform: capitalize;
+}

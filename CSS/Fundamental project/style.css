@@ -1,0 +1,10 @@
+.icon, h1{
+  color:red;
+  font-size: 40px;
+}
+#title,h2{
+  color: blue;
+}
+p{
+  color:grey;
+}
