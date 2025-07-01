@@ -39,14 +39,14 @@
 
 .inner h1{
   text-transform: capitalize;
-  animation: down 5s;
+  animation: down 5s ease-in-out;
   animation-fill-mode: forwards;
 }
 
 .inner p{
   max-width: 700px;
   margin: 20px auto 20px 0px;
-  animation: down 5s;
+  animation: down 5s ease-in-out;
   animation-fill-mode: forwards;
 }
 
@@ -57,7 +57,7 @@ button{
   text-transform: uppercase;
   border-color: white;
   text-align: center;
-  animation: up 5s;
+  animation: up 5s ease-in-out;
   animation-fill-mode: forwards;
 }
 
@@ -83,7 +83,7 @@ button{
   }
   100%{
     opacity: 1;
-    transform: none;
+    transform: translateY(0);
   }
 }
 @keyframes up {
@@ -96,6 +96,6 @@ button{
   }
   100%{
     opacity: 1;
-    transform: none;
+    transform: translateY(0);
   }
 }
